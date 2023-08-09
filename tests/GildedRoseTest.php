@@ -1,4 +1,5 @@
 <?php
+ini_set('error_reporting',  ~E_DEPRECATED);
 
 use App\GildedRose;
 use App\Models\Item;
@@ -16,8 +17,9 @@ class GildedRoseTest extends TestCase
      */
     public function testUpdateQualityTest($name, $sellIn, $quality, $expectedSellIn, $expectedQuality): void
     {
+//        $this->expectException(PHPUnit\Framework\Error\Deprecated);
         $item = new Item($name, $sellIn, $quality);
-        $gildedRose = new \App\GildedRose();
+        $gildedRose = new GildedRose();
         $gildedRose->updateQuality($item);
 
         $this->assertEquals($expectedSellIn, $item->sell_in);
