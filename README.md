@@ -1,6 +1,6 @@
 You are given the following task to demonstrate practical code refactoring skills. The `tests` directory contains the tests (surprise) that run in their initial form and they pass correctly. These tests will be the basic tool to control the refactored code. Your task is to refactor the source code - i.e. to make changes that will improve its quality without changing its operation logic. What changes you will introduce, what patterns or good practices you will use - it's up to you. Any improvement in code quality is better than none at all! Remember, however, that at the time of sending back the assignment, all tests must still run correctly.
 
-The task should run in PHP 8.1. The unit tests were written using the phpunit version 9.5 framework and should be run on that. A job description that explains the business logic contained in the class GildedRose.php is below.
+The task should run in PHP 8.1. The unit tests were written using the phpunit version 9.5 framework and should be run on that. A job description that explains the business logic contained in the class G i l d e d R o s e .php is below.
 
 ## Requirements
 - composer
@@ -12,7 +12,7 @@ To install dependencies run ```composer install```. To run test use ```./vendor/
 
 ## Introduction
 
-Hi and welcome to team Gilded Rose. As you know, we are a small inn with a
+Hi and welcome to team G i l d e d  R o s e. As you know, we are a small inn with a
 prime location in a prominent city ran by a friendly innkeeper named Allison.
 We also buy and sell only the finest goods. Unfortunately, our goods are
 constantly degrading in quality as they approach their sell by date. We have a
