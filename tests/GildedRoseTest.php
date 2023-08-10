@@ -1,4 +1,5 @@
 <?php
+// TOTO: remove the crutch. find a fix for serialization in phpunit9.5 & php8.1
 ini_set('error_reporting',  ~E_DEPRECATED);
 
 use App\GildedRose;
